@@ -77,6 +77,10 @@ createApp({
             if(this.activeItem === -1){
                 this.activeItem = this.slides.length -1;
             }
+        },
+
+        directThumb(index){
+            this.activeItem= index;
         }
     }
 }).mount('#app');
